@@ -44,7 +44,7 @@ send_telegram_log() {
     local status=$(escape_markdown_v2 "$status_raw")
     local A0GI_BALANCE=$(get_a0gi_balance)
     local msg=$(cat <<EOF
-📢 *0xnop 0G REPORT!!!*
+📢 *0\\xnop 0G REPORT!!!*
 🧠 *0G Storage Node*
 
 📦 *Storage:* \`$STORAGE_HEIGHT\`
